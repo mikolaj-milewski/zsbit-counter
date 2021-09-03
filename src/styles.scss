@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    // background-color: #0d1838; // 001
+    background-color: #090f41; // 010
+    // background-image: url(/assets/background-001.png);
+    background-image: url(/assets/background-010.png);
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+    countdown {
+        display: block;
+        margin-top: 800px;
+
+        span {
+            display: block;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
